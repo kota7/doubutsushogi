@@ -3,6 +3,11 @@ Solve Doubutsu Shogi Game
 
 We find the perfect solution to the [doubutsu shogi game](https://en.wikipedia.org/wiki/D%C5%8Dbutsu_sh%C5%8Dgi).
 
+Note that this solution is not new. A solution to this game has already been presented by Tanaka in [this paper](https://www.tanaka.ecc.u-tokyo.ac.jp/ktanaka/dobutsushogi/animal-private.pdf) and [his program](https://www.tanaka.ecc.u-tokyo.ac.jp/ktanaka/dobutsushogi/).
+
+This program achieves the same goal with slightly different implementation. 
+A difference from the original work is that we find values to states on off-optimal paths.
+
 
 ## Steps
 
