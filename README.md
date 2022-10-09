@@ -44,7 +44,7 @@ The following command solves the game:
 Input file:
 - `doubutsu-states-full.txt`
 
-Outut file:
+Output file:
 - `doubutsu-values-full.txt`: all state indices and the state values
 
 ### Make the SQLite database
@@ -53,6 +53,14 @@ Outut file:
 # requires the tqdm library
 python3 make-sqlite-db.py
 ```
+
+Input file:
+- `doubutsu-values-full.txt`: all state indices and the state values
+
+Output file:
+- `doubutsu.db`: SQLite file
+- `doubutsu.db.bz2`: BZ2 compressed (for the release)
+
 
 ## Technical notes
 

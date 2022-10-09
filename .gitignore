@@ -1,3 +1,7 @@
+.ipynb_checkpoints
+*.db
+*.bz2
+*.md5
 *.txt
 *.txt.gz
 /test

@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import os
-import gzip
 import sqlite3
 from tqdm import tqdm
 
@@ -18,6 +17,7 @@ def _data_generator():
       row = row.strip().split(" ")
       row = int(row[0]), round(float(row[1]) * 10000)
       yield row
+
 
 with sqlite3.connect(dbfile) as conn:
   c = conn.cursor()
