@@ -86,7 +86,7 @@ The next 3 are the number of captured pieces by the first player (`HIYOKO`, `ZOU
 We define the index of the states by the following formula:
 
 $$
-\mathrm{StateIndex}(s) = \sum_{i=1}^{12} 5^{i-1} s_i + \sum_{i=13}^{18} 5^{12} \times 3^{i-13} s_i
+\mathrm{StateIndex}(s) = \sum_{i=1}^{12} 5^{i-1} (s_i + 5) + \sum_{i=13}^{18} 5^{12} \times 3^{i-13} s_i
 $$
 
 and its C++ implementation is as follows:
